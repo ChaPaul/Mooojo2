@@ -6,5 +6,5 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         />
-    android:background="#EF3A76"
+    android:background="#EF2A76"
 </menu>
