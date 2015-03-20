@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.mooojo.sante"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schemas.android.com/apk/res/android
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.android.com/apk/res/android
+
 http://schemas.android.com/apk/res/android ">
 
     <application android:label="@string/app_name">
-        <activity android:name="app.mooojo.sante.MyActivity"
-            android:label="@string/app_name">
+        <activity android:name="app.mooojo.sante.MyActivity" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
