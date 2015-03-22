@@ -4,10 +4,44 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:gravity="center_horizontal">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MooOjo est une application vous permettant de suivre vl'évolution de de votre poids ainsi que de compter le nomber de pas que vous faites par jours."
+        android:id="@+id/textView2"
+        android:textAlignment="justify"
+        android:layout_above="@+id/textView3"
+        android:layout_marginBottom="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer par Paul et Antoine deux étudiants en DUT MMI (Métier du Multimédia et de l'internet dans le but de permettre à chaqu'un de poivoir suivre l'évoluion de sa santé physique. "
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Copyright © 2015 by Paul Chagnon and Antoine Lassoujade"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="3"
-        android:id="@+id/textView" />
+        android:text="A propos de MooOjo Santé : "
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="34dp" />
+
+
 </RelativeLayout>
