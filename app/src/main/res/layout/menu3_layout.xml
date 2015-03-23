@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:text="MooOjo est une application vous permettant de suivre vl'évolution de de votre poids ainsi que de compter le nomber de pas que vous faites par jours."
         android:id="@+id/textView2"
-        android:textAlignment="justify"
         android:layout_above="@+id/textView3"
         android:layout_marginBottom="65dp" />
 
