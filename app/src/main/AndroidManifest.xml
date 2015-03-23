@@ -3,7 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.android.com/apk/res/android
 
 http://schemas.android.com/apk/res/android ">
-
+    <user-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="false"/>
     <application android:label="@string/app_name">
         <activity android:name="app.mooojo.sante.MyActivity" android:label="@string/app_name">
             <intent-filter>
