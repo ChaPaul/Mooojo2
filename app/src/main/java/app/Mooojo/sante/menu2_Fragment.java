@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import app.mooojo.sante.R;
+
 /**
  * Created by Z0NEN on 10/22/2014.
  */
